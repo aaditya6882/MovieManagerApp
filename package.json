@@ -1,0 +1,28 @@
+{
+  "name": "moviemanagerapp",
+  "version": "1.0.0",
+  "description": "Movie Manager\r Overview\r Movie Manager is a simple web application that allows users to manage a collection of movies. Users can add, edit, and delete movie entries, including details such as the movie name, genre, release date, description, and an optional poster image. The application features a visually appealing interface with a modern design, including a dynamic background and smooth animations.\r Features",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jenny-hub90/MovieManagerApp.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jenny-hub90/MovieManagerApp/issues"
+  },
+  "homepage": "https://github.com/jenny-hub90/MovieManagerApp#readme",
+  "dependencies": {
+    "dotenv": "^17.2.1",
+    "express": "^5.1.0",
+    "mongoose": "^8.17.0",
+    "nodemon": "^3.1.10"
+  }
+}
